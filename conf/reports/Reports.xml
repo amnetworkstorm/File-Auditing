@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MainReports>
+	<ReportsLog type="Windows">
+		
+		<ReportsGroup id="1" name="File Management">
+			
+			<Reports id="1" name="File Read" condition="(AccessesMask='0x1')"  fields="MachineId,UserName,Domain,ObjectName,Time"  notifications=""  table_name="FileMonitor" />
+
+			<Reports id="2" name="File Write" condition="(AccessesMask='0x2')"  fields="MachineId,UserName,Domain,ObjectName,Time"  notifications=""  table_name="FileMonitor" />
+
+			<Reports id="3" name="File Delete" condition="(AccessesMask='0x10000')"  fields="MachineId,UserName,Domain,ObjectName,Time"  notifications=""  table_name="FileMonitor" />
+
+			<Reports id="4" name="File Permissions Change" condition="(AccessesMask='0x40000')"  fields="MachineId,UserName,Domain,ObjectName,Time"  notifications=""  table_name="FileMonitor" />
+
+			<Reports id="5" name="File Ownership Change" condition="(AccessesMask='0x80000')"  fields="MachineId,UserName,Domain,ObjectName,Time"  notifications=""  table_name="FileMonitor" />
+
+
+		</ReportsGroup>
+
+	</ReportsLog>
+	
+
+</MainReports>

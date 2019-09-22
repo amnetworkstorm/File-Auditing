@@ -1,0 +1,7 @@
+{
+	"machine":"ManageMachine",
+	"reporthome":"ManageReportHome",
+	"report":"ManageReport",
+	"dashboard":"ManageDashBoard",
+	"misc":"ManageMisc"
+}

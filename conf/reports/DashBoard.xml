@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashBoard_Reports>
+	<Dashboard_Report type="Windows">
+		<Dashboard id="1" name="Top File Read by UserName"  query="select username,count(username) as count from FileMonitor where (AccessesMask=''0x1'') group by username order by count desc" isactive="true"  chart_type="line" column1="username" column2="count"/>
+
+		<Dashboard id="2" name="Top File Write by UserName"  query="select username,count(username) as count from FileMonitor where (AccessesMask=''0x2'') group by username order by count desc" isactive="true"  chart_type="line" column1="username" column2="count"/>
+		
+		<Dashboard id="3" name="Top File Deleted by UserName"  query="select username,count(username) as count from FileMonitor where (AccessesMask=''0x10000'') group by username order by count desc" isactive="true"  chart_type="line" column1="username" column2="count"/>
+
+		<Dashboard id="4" name="Top File Permission Change by UserName"  query="select username,count(username) as count from FileMonitor where (AccessesMask=''0x40000'') group by username order by count desc" isactive="true"  chart_type="line" column1="username" column2="count"/>
+
+	
+
+	</Dashboard_Report>
+
+
+</DashBoard_Reports>
+		
+	

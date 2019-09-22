@@ -1,0 +1,438 @@
+/* --------------- transform ------------ */
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+// Usage 
+// @include transform(translateX(30)) 
+
+
+/* --------------- transitioin ------------ */
+@mixin transition($property) {
+    -webkit-transition: $property;
+    -o-transition: $property;
+    transition: $property;
+}
+
+// Usage 
+// @include transition('all 1s') 
+
+
+/* --------------- Box Shadow ------------ */
+@mixin box-shadow($top, $left, $blur, $spread, $color, $inset: false) {
+    @if $inset {
+        -webkit-box-shadow: inset $top $left $blur $spread $color;
+        -moz-box-shadow: inset $top $left $blur $spread $color;
+        box-shadow: inset $top $left $blur $spread $color;
+    }
+
+    @else {
+        -webkit-box-shadow: $top $left $blur $spread $color;
+        -moz-box-shadow: $top $left $blur $spread $color;
+        box-shadow: $top $left $blur $spread $color;
+    }
+}
+
+// Usage 
+// @include box-shadow(0, 0, 0, 0, '#ddd'); 
+
+
+/* --------------- Font Face ------------ */
+@mixin fontface($name, $file, $weight: normal, $style: normal) {
+    @font-face {
+        font-family: "#{$name}";
+        src: url('./assets/fonts/#{$file}.eot');
+        src: url('./assets/fonts/#{$file}.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/#{$file}.woff') format('woff'),
+        url('./assets/fonts/#{$file}.woff2') format('woff2'),
+        url('./assets/fonts/#{$file}.ttf') format('truetype');
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+// Usage
+// @include fontface('Roboto', 'Roboto-Bold', 700, normal);
+
+/* --------------- Padding & Margin ------------ */
+// Padding and Margins // Use like this (.pt-10, .pt-5 ..., .mt-10, .mt-5 ...)
+
+$spaceamounts: (5, 10, 15, 20, 40);
+$sides: (top, bottom, left, right);
+
+@each $space in $spaceamounts {
+    @each $side in $sides {
+        .m#{str-slice($side, 0, 1)}-#{$space} {
+            margin-#{$side}: #{$space}px;
+        }
+
+        .p#{str-slice($side, 0, 1)}-#{$space} {
+            padding-#{$side}: #{$space}px;
+        }
+    }
+}
+
+/* --------------- Font Size ------------ */
+@mixin fontSize($sizeValue: 14) {
+    .text-#{$sizeValue} {
+        font-size: ($sizeValue) + px;
+        line-height: ($sizeValue + 10) + px;
+    }
+
+    .font-#{$sizeValue} {
+        font-size: ($sizeValue) + px;
+        line-height: ($sizeValue) + px;
+    }
+}
+
+// Udage
+// @include fontSize(12);
+
+
+/* --------------- Positions ------------ */
+@mixin position($position, $args) {
+    @each $o in top right bottom left {
+        $i: index($args, $o);
+
+        @if $i and $i+1 <=length($args) and type-of(nth($args, $i + 1))==number {
+            #{$o}: nth($args, $i + 1);
+        }
+    }
+
+    position: $position;
+}
+
+// Positioning helpers
+
+@mixin absolute($args: '') {
+    @include position(absolute, $args);
+}
+
+@mixin fixed($args: '') {
+    @include position(fixed, $args);
+}
+
+@mixin relative($args: '') {
+    @include position(relative, $args);
+}
+
+// Usage
+//   body:after {
+//       @include absolute(top 0 bottom 0 right 0 left 0);
+//   }
+
+
+/* --------------- Font styles ------------ */
+@mixin font-source($size: false, $colour: false, $weight: false, $lh: false) {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+
+    @if $size {
+        font-size: $size;
+    }
+
+    @if $colour {
+        color: $colour;
+    }
+
+    @if $weight {
+        font-weight: $weight;
+    }
+
+    @if $lh {
+        line-height: $lh;
+    }
+}
+
+// Usage   
+
+//   body{
+//       @include font-source(16px, #333, normal, inherit);
+//   }
+
+
+/* --------------- Placeholders ------------ */
+@mixin input-placeholder {
+    &.placeholder {
+        @content;
+    }
+
+    &:-moz-placeholder {
+        @content;
+    }
+
+    &::-moz-placeholder {
+        @content;
+    }
+
+    &:-ms-input-placeholder {
+        @content;
+    }
+
+    &::-webkit-input-placeholder {
+        @content;
+    }
+}
+
+// Usage   
+
+//   input,  
+//   textarea {  
+//       @include input-placeholder {
+//           color: $gray;
+//       }
+//   }
+
+
+
+/* --------------- Truncates ------------ */
+@mixin truncate($truncation-boundary) {
+    max-width: $truncation-boundary;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin truncate-h($truncation-height) {
+    vertical-align: top;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    text-overflow: -o-ellipsis-lastline;
+    height: $truncation-height;
+}
+
+@mixin line-clamp($line-height) {
+    -webkit-line-clamp: $line-height;
+    -webkit-box-orient: vertical;
+}
+
+// Usage   
+
+//   .htruncate-ml4 {
+//       @include truncate-h(80px);
+//       @include line-clamp(4);
+//   }
+
+
+
+/* --------------- Width and Height ------------ */
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+// Usage   
+//   .square { 
+//       @include size(100px); 
+//   }
+//   .size{
+//       @include size(auto, auto); 
+//   }
+
+
+
+/* --------------- Box Sizing ------------ */
+@mixin box-sizing($box-model) {
+    -webkit-box-sizing: $box-model; // Safari <= 5
+    -moz-box-sizing: $box-model; // Firefox <= 19
+    box-sizing: $box-model;
+}
+
+//Usage
+
+// body{
+// 	@include box-sizing(border-box);
+// }
+
+
+
+
+/* --------------- Gradient ------------ */
+@mixin gradient($start-color, $end-color, $orientation) {
+    background: $start-color;
+
+    @if $orientation=='vertical' {
+        background: -webkit-linear-gradient(top, $start-color, $end-color);
+        background: linear-gradient(to bottom, $start-color, $end-color);
+    }
+
+    @else if $orientation=='horizontal' {
+        background: -webkit-linear-gradient(left, $start-color, $end-color);
+        background: linear-gradient(to right, $start-color, $end-color);
+    }
+
+    @else {
+        background: -webkit-radial-gradient(center, ellipse cover, $start-color, $end-color);
+        background: radial-gradient(ellipse at center, $start-color, $end-color);
+    }
+}
+
+// Usage     
+// .gradient {
+//     @include gradient(#07c, #06f, vertical);
+// }
+
+
+
+
+/* --------------- Vertical Centering ------------ */
+@mixin prefix($property, $value, $vendors: webkit moz ms o, $default: true) {
+    @if $vendors {
+        @each $vendor in $vendors {
+            #{"-" + $vendor + "-" + $property}: #{$value};
+        }
+    }
+
+    @if $default {
+        #{$property}: #{$value};
+    }
+}
+
+@mixin center-vertically {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include prefix(transform, translate(-50%, -50%), 'webkit''ms');
+}
+
+// Usage   
+// .vc-box {
+//     @include center-vertically;
+// }
+
+
+
+
+/* --------------- Media Queries ------------ */
+$breakpoints: (xs: 577px,
+sm: 768px,
+md: 992px,
+lg: 1200px);
+
+//  RESPOND ABOVE Width
+@mixin widthAbove($breakpoint) {
+
+    @if map-has-key($breakpoints,
+    $breakpoint) {
+        $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+        @media (min-width: $breakpoint-value) {
+            @content;
+        }
+    }
+
+    @else {
+        @warn 'Invalid breakpoint: #{$breakpoint}.';
+    }
+}
+
+//  RESPOND BELOW Width
+@mixin widthBelow($breakpoint) {
+
+    @if map-has-key($breakpoints,
+    $breakpoint) {
+        $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+        @media (max-width: ($breakpoint-value - 1)) {
+            @content;
+        }
+    }
+
+    @else {
+        @warn 'Invalid breakpoint: #{$breakpoint}.';
+    }
+}
+
+//  RESPOND BETWEEN width
+@mixin widthBetween($lower,
+$upper) {
+
+    @if map-has-key($breakpoints,
+    $lower) and map-has-key($breakpoints,
+    $upper) {
+        $lower-breakpoint: map-get($breakpoints, $lower);
+        $upper-breakpoint: map-get($breakpoints, $upper);
+
+        @media (min-width: $lower-breakpoint) and (max-width: ($upper-breakpoint - 1)) {
+            @content;
+        }
+    }
+
+    @else {
+
+        @if (map-has-key($breakpoints,
+        $lower)==false) {
+            @warn 'Your lower breakpoint was invalid: #{$lower}.';
+        }
+
+        @if (map-has-key($breakpoints,
+        $upper)==false) {
+            @warn 'Your upper breakpoint was invalid: #{$upper}.';
+        }
+    }
+}
+
+//  RESPOND ABOVE Width
+@mixin heightAbove($breakpoint) {
+
+    @if map-has-key($breakpoints,
+    $breakpoint) {
+        $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+        @media (min-height: $breakpoint-value) {
+            @content;
+        }
+    }
+
+    @else {
+        @warn 'Invalid breakpoint: #{$breakpoint}.';
+    }
+}
+
+//  RESPOND BELOW
+@mixin heightBelow($breakpoint) {
+
+    @if map-has-key($breakpoints,
+    $breakpoint) {
+        $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+        @media (max-height: ($breakpoint-value - 1)) {
+            @content;
+        }
+    }
+
+    @else {
+        @warn 'Invalid breakpoint: #{$breakpoint}.';
+    }
+}
+
+//  RESPOND BETWEEN
+@mixin heightBetween($lower,
+$upper) {
+
+    @if map-has-key($breakpoints,
+    $lower) and map-has-key($breakpoints,
+    $upper) {
+        $lower-breakpoint: map-get($breakpoints, $lower);
+        $upper-breakpoint: map-get($breakpoints, $upper);
+
+        @media (min-height: $lower-breakpoint) and (max-height: ($upper-breakpoint - 1)) {
+            @content;
+        }
+    }
+
+    @else {
+
+        @if (map-has-key($breakpoints,
+        $lower)==false) {
+            @warn 'Your lower breakpoint was invalid: #{$lower}.';
+        }
+
+        @if (map-has-key($breakpoints,
+        $upper)==false) {
+            @warn 'Your upper breakpoint was invalid: #{$upper}.';
+        }
+    }
+}

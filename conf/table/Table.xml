@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableStructure>
+	<table order="1" name="Machines">
+		<column name="MACHINEID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<autogen>true</autogen>
+		</column>
+		<column name="NAME">
+			<column-type>STRING</column-type>
+			<size>50</size>
+			<primary-key>true</primary-key>
+		</column>
+		<column name="DOMAINNAME">
+			<column-type>STRING</column-type>
+			<size>50</size>
+		</column>
+		<column name="USERNAME">
+			<column-type>STRING</column-type>
+			<size>50</size>
+		</column>
+		<column name="PASSWORD">
+			<column-type>STRING</column-type>
+			<size>50</size>
+		</column>
+		<column name="MACHINETYPE">
+			<column-type>STRING</column-type>
+			<size>50</size>
+		</column>
+		<column name="LASTMSGTIME">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<default_value>0</default_value>
+		</column>
+		<column name="INTERVAL">
+			<column-type>INTEGER</column-type>
+			<size>20</size>
+		</column>
+		<column name="NEXTSCANTIME">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<default_value>0</default_value>
+		</column>
+	</table>
+
+
+
+	<table order="2" name="ReportsLog">
+		<column name="ID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<autogen>true</autogen>
+		</column>
+		<column name="TYPE">
+			<column-type>STRING</column-type>
+			<size>50</size>
+			<primary-key>true</primary-key>
+		</column>
+	</table>
+
+	<table order="3" name="ReportsGroup">
+		<column name="ID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<autogen>true</autogen>
+			<primary-key>true</primary-key>
+		</column>
+		<column name="NAME">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="TYPE">
+			<column-type>STRING</column-type>
+			<size>50</size>
+			<foreign-table>ReportsLog</foreign-table>
+			<foreign-column>TYPE</foreign-column>
+		</column>
+	</table>
+
+	<table order="4" name="Reports">
+		<column name="ID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<autogen>true</autogen>
+			<primary-key>true</primary-key>
+		</column>
+		<column name="NAME">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="CONDITION">
+			<column-type>STRING</column-type>
+			<size>1000</size>
+		</column>
+		<column name="FIELDS">
+			<column-type>STRING</column-type>
+			<size>500</size>
+		</column>
+		<column name="NOTIFICATIONS">
+			<column-type>STRING</column-type>
+			<size>2000</size>
+		</column>
+		<column name="TABLE_NAME">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="GROUP_ID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<foreign-table>ReportsGroup</foreign-table>
+			<foreign-column>ID</foreign-column>
+		</column>
+	</table>
+
+	<table order="5" name="ConfigurationValues">
+		<column name="ID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<autogen>true</autogen>
+			<primary-key>true</primary-key>
+		</column>
+		<column name="NAME">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="VALUE">
+			<column-type>STRING</column-type>
+			<size>1000</size>
+		</column>
+	</table>
+
+
+
+
+	<table order="6" name="Dashboard_Report">
+		<column name="ID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<autogen>true</autogen>
+		</column>
+		<column name="TYPE">
+			<column-type>STRING</column-type>
+			<primary-key>true</primary-key>
+			<size>100</size>
+		</column>
+	</table>
+
+	<table order="7" name="Dashboard">
+		<column name="ID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<autogen>true</autogen>
+			<primary-key>true</primary-key>
+		</column>
+		<column name="NAME">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="COLUMN1">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="COLUMN2">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="QUERY">
+			<column-type>STRING</column-type>
+			<size>1000</size>
+		</column>
+		<column name="ISACTIVE">
+			<column-type>BOOLEAN</column-type>
+		</column>
+		<column name="TYPE">
+			<column-type>STRING</column-type>
+			<size>100</size>
+			<foreign-table>Dashboard_Report</foreign-table>
+			<foreign-column>TYPE</foreign-column>
+		</column>
+		<column name="CHART_TYPE">
+			<column-type>STRING</column-type>
+			<size>20</size>
+		</column>
+	</table>
+
+
+	
+
+	<table order="8" name="ObjectDeleted">
+		<column name="ID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<autogen>true</autogen>
+			<primary-key>true</primary-key>
+		</column>
+		<column name="MACHINEID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+		</column>
+		<column name="USERNAME">
+			<column-type>STRING</column-type>
+			<size>50</size>
+		</column>
+		<column name="DOMAIN">
+			<column-type>STRING</column-type>
+			<size>50</size>
+		</column>
+		
+		<column name="PROCESSNAME">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="SEVERITY">
+			<column-type>STRING</column-type>
+			<size>50</size>
+		</column>
+		<column name="EVENTID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+		</column>
+		<column name="TIME">
+			<column-type>LONG</column-type>
+			<size>20</size>
+		</column>
+	</table>
+
+	<table order="9" name="FileMonitor">
+		<column name="ID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<autogen>true</autogen>
+			<primary-key>true</primary-key>
+		</column>
+		<column name="MACHINEID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+		</column>
+		<column name="USERNAME">
+			<column-type>STRING</column-type>
+			<size>50</size>
+		</column>
+		<column name="DOMAIN">
+			<column-type>STRING</column-type>
+			<size>50</size>
+		</column>
+		<column name="OBJECTSERVER">
+			<column-type>STRING</column-type>
+			<size>50</size>
+		</column>
+		<column name="OBJECTTYPE">
+			<column-type>STRING</column-type>
+			<size>50</size>
+		</column>
+		<column name="OBJECTNAME">
+			<column-type>STRING</column-type>
+			<size>250</size>
+		</column>
+		<column name="HANDLEID">
+			<column-type>STRING</column-type>
+			<size>250</size>
+		</column>
+		<column name="ACCESSES">
+			<column-type>STRING</column-type>
+			<size>1000</size>
+		</column>
+		<column name="ACCESSESMASK">
+			<column-type>STRING</column-type>
+			<size>1000</size>
+		</column>
+		<column name="TIME">
+			<column-type>LONG</column-type>
+			<size>20</size>
+		</column>
+	</table>
+
+
+
+
+
+	<table order="10" name="ReportSelect">
+		<column name="ID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<autogen>true</autogen>
+			<primary-key>true</primary-key>
+		</column>
+		<column name="REPORTID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+		</column>
+		<column name="FIELDS">
+			<column-type>STRING</column-type>
+			<size>2000</size>
+			<default_value></default_value>
+		</column>
+	</table>
+
+
+
+	<table order="11" name="Schedule_Reports">
+		<column name="ID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<autogen>true</autogen>
+			<primary-key>true</primary-key>
+		</column>
+		<column name="NAME">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="MACHINEID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+		</column>
+		<column name="MACHINE_TYPE">
+			<column-type>STRING</column-type>
+			<size>20</size>
+		</column>
+		<column name="TYPE">
+			<column-type>STRING</column-type>
+			<size>20</size>
+		</column>
+		<column name="REPORTS">
+			<column-type>STRING</column-type>
+			<size>200</size>
+		</column>
+		<column name="EMAIL">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="REPORT_FORMAT">
+			<column-type>STRING</column-type>
+			<size>20</size>
+		</column>
+		
+		<column name="GENERATE_REPORT_ON">
+			<column-type>INTEGER</column-type>
+			<size>20</size>
+		</column>
+		<column name="GENERATE_REPORT_ON_HOUR">
+			<column-type>INTEGER</column-type>
+			<size>20</size>
+		</column>
+		<column name="GENERATE_REPORT_ON_MINS">
+			<column-type>INTEGER</column-type>
+			<size>20</size>
+		</column>
+		<column name="GENERATE_REPORT_FOR">
+			<column-type>STRING</column-type>
+			<size>20</size>
+		</column>
+		<column name="GENERATE_REPORT_BUSINESS_HOUR">
+			<column-type>STRING</column-type>
+			<size>20</size>
+		</column>
+		<column name="LAST_SCHEDULE_TIME">
+			<column-type>LONG</column-type>
+			<size>20</size>
+		</column>
+		<column name="NEXT_SCHEDULE_TIME">
+			<column-type>LONG</column-type>
+			<size>20</size>
+		</column>
+	</table>
+	
+
+	<table order="12" name="MailServerSettings">
+		<column name="ID">
+			<column-type>LONG</column-type>
+			<size>20</size>
+			<autogen>true</autogen>
+			<primary-key>true</primary-key>
+		</column>
+		<column name="SMTPSERVER">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="PORT">
+			<column-type>STRING</column-type>
+			<size>20</size>
+		</column>
+		<column name="USERNAME">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="PASSWORD">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="ADDRESSFROM">
+			<column-type>STRING</column-type>
+			<size>100</size>
+		</column>
+		<column name="TLS">
+			<column-type>STRING</column-type>
+			<size>50</size>
+		</column>
+	</table>
+
+</TableStructure>

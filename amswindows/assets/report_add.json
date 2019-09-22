@@ -1,0 +1,194 @@
+{
+    "addReport": [{
+            "name": "Schedule Name",
+            "key": "name",
+            "value": "",
+            "required": true,
+            "controlType": "textbox",
+            "order": 1
+        },
+        {
+            "name": "Machine Name",
+            "key": "machineid",
+            "value": "",
+            "options": [
+                { "id": 6, "name": "Solid" },
+                { "id": 7, "name": "Great" },
+                { "id": 4, "name": "Good" },
+                { "id": 2, "name": "Unproven" }
+            ],
+            "controlType": "select",
+            "order": 2
+        },
+        {
+            "name": "Schedule Details",
+            "key": "report_running_basis",
+            "value": "",
+            "options": ["Hourly", "Daily", "Weekly", "Monthly"],
+            "required": true,
+            "controlType": "radio",
+            "conditionInput": true,
+            "order": 3
+        },
+        {
+            "name": "Report Format",
+            "key": "report_format",
+            "value": "",
+            "options": [
+                { "id": 6, "name": "pdf" },
+                { "id": 7, "name": "xls" },
+                { "id": 4, "name": "csv" }
+            ],
+            "controlType": "select",
+            "order": 4
+        },
+        {
+            "name": "Reports",
+            "key": "reports",
+            "value": "",
+            "required": true,
+            "controlType": "textbox",
+            "order": 3
+        },
+        {
+            "name": "Report for",
+            "key": "report_running_for",
+            "conditionOutput": true,
+            "value": "",
+            "options": [
+                { "id": 6, "condition": "Daily", "name": "Previous Day" },
+                { "id": 6, "condition": "Daily", "name": "Last 24 Hours" },
+                { "id": 6, "condition": "Daily", "name": "Last 12 Hours" },
+                { "id": 6, "condition": "Daily", "name": "Last 6 Hours" },
+                { "id": 6, "condition": "Hourly", "name": "Previous Hours" },
+                { "id": 6, "condition": "Hourly", "name": "Last 60 Minutes" },
+                { "id": 6, "condition": "Weekly", "name": "Previous Week" },
+                { "id": 6, "condition": "Weekly", "name": "Last 7 Days" },
+                { "id": 6, "condition": "Weekly", "name": "Before 7 Days" },
+                { "id": 6, "condition": "Monthly", "name": "Previous Month" },
+                { "id": 6, "condition": "Monthly", "name": "Last 30 Days" },
+                { "id": 6, "condition": "Monthly", "name": "Before 30 Days" },
+                { "id": 6, "condition": "Monthly", "name": "Last 60 Days" },
+                { "id": 6, "condition": "Monthly", "name": "Before 60 Days" },
+                { "id": 6, "condition": "Monthly", "name": "Last 90 Days" },
+                { "id": 6, "condition": "Monthly", "name": "Before 90 Days" }
+            ],
+            "controlType": "select",
+            "order": 4
+        },
+        {
+            "name": "Business Hours",
+            "key": "business_hour",
+            "value": "",
+            "options": [
+                { "id": 6, "name": "All" },
+                { "id": 7, "name": "Business" },
+                { "id": 4, "name": "Non-Business" }
+            ],
+            "controlType": "select",
+            "order": 4
+        },
+        {
+            "name": "Report Running",
+            "key": "report_running",
+            "value": "",
+            "options": [
+                { "id": 1, "name": "1" },
+                { "id": 2, "name": "2" },
+                { "id": 3, "name": "3" },
+                { "id": 4, "name": "4" },
+                { "id": 5, "name": "5" },
+                { "id": 6, "name": "6" },
+                { "id": 7, "name": "7" },
+                { "id": 8, "name": "8" },
+                { "id": 9, "name": "9" },
+                { "id": 10, "name": "10" },
+                { "id": 11, "name": "11" },
+                { "id": 12, "name": "12" },
+                { "id": 13, "name": "13" },
+                { "id": 14, "name": "14" },
+                { "id": 15, "name": "15" },
+                { "id": 16, "name": "16" },
+                { "id": 17, "name": "17" },
+                { "id": 18, "name": "18" },
+                { "id": 19, "name": "19" },
+                { "id": 20, "name": "20" },
+                { "id": 21, "name": "21" },
+                { "id": 22, "name": "22" },
+                { "id": 23, "name": "23" },
+                { "id": 24, "name": "24" },
+                { "id": 25, "name": "25" },
+                { "id": 26, "name": "26" },
+                { "id": 27, "name": "27" },
+                { "id": 28, "name": "28" },
+                { "id": 29, "name": "29" },
+                { "id": 30, "name": "30" },
+                { "id": 31, "name": "31" }
+            ],
+            "controlType": "select",
+            "order": 4
+        },
+        {
+            "name": "Report Running Hours",
+            "key": "report_running_hour",
+            "value": "",
+            "options": [
+                { "id": 1, "name": "1" },
+                { "id": 2, "name": "2" },
+                { "id": 3, "name": "3" },
+                { "id": 4, "name": "4" },
+                { "id": 5, "name": "5" },
+                { "id": 6, "name": "6" },
+                { "id": 7, "name": "7" },
+                { "id": 8, "name": "8" },
+                { "id": 9, "name": "9" },
+                { "id": 10, "name": "10" },
+                { "id": 11, "name": "11" },
+                { "id": 12, "name": "12" },
+                { "id": 13, "name": "13" },
+                { "id": 14, "name": "14" },
+                { "id": 15, "name": "15" },
+                { "id": 16, "name": "16" },
+                { "id": 17, "name": "17" },
+                { "id": 18, "name": "18" },
+                { "id": 19, "name": "19" },
+                { "id": 20, "name": "20" },
+                { "id": 21, "name": "21" },
+                { "id": 22, "name": "22" },
+                { "id": 23, "name": "23" },
+                { "id": 24, "name": "24" }
+            ],
+            "controlType": "select",
+            "order": 4
+        },
+        {
+            "name": "Report Running Minutes",
+            "key": "report_running_mins",
+            "value": "",
+            "options": [
+                { "id": 0, "name": "0" },
+                { "id": 5, "name": "5" },
+                { "id": 10, "name": "10" },
+                { "id": 15, "name": "15" },
+                { "id": 20, "name": "20" },
+                { "id": 25, "name": "25" },
+                { "id": 30, "name": "30" },
+                { "id": 35, "name": "35" },
+                { "id": 40, "name": "40" },
+                { "id": 45, "name": "45" },
+                { "id": 50, "name": "50" },
+                { "id": 55, "name": "55" },
+                { "id": 60, "name": "60" }
+            ],
+            "controlType": "select",
+            "order": 4
+        },
+        {
+            "name": "Email Notification",
+            "key": "email",
+            "value": "",
+            "controlType": "textbox",
+            "order": 4
+        }
+    ]
+}

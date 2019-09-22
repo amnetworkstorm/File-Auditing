@@ -1,0 +1,4775 @@
+MessageId	=279
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=1536
+Language    =English
+Unused message ID
+.
+
+MessageId	=1537
+Language    =English
+DELETE
+.
+
+MessageId	=1538
+Language    =English
+READ_CONTROL
+.
+
+MessageId	=1539
+Language    =English
+WRITE_DAC
+.
+
+MessageId	=1540
+Language    =English
+WRITE_OWNER
+.
+
+MessageId	=1541
+Language    =English
+SYNCHRONIZE
+.
+
+MessageId	=1542
+Language    =English
+ACCESS_SYS_SEC
+.
+
+MessageId	=1543
+Language    =English
+MAX_ALLOWED
+.
+
+MessageId	=1552
+Language    =English
+Unknown specific access (bit 0)
+.
+
+MessageId	=1553
+Language    =English
+Unknown specific access (bit 1)
+.
+
+MessageId	=1554
+Language    =English
+Unknown specific access (bit 2)
+.
+
+MessageId	=1555
+Language    =English
+Unknown specific access (bit 3)
+.
+
+MessageId	=1556
+Language    =English
+Unknown specific access (bit 4)
+.
+
+MessageId	=1557
+Language    =English
+Unknown specific access (bit 5)
+.
+
+MessageId	=1558
+Language    =English
+Unknown specific access (bit 6)
+.
+
+MessageId	=1559
+Language    =English
+Unknown specific access (bit 7)
+.
+
+MessageId	=1560
+Language    =English
+Unknown specific access (bit 8)
+.
+
+MessageId	=1561
+Language    =English
+Unknown specific access (bit 9)
+.
+
+MessageId	=1562
+Language    =English
+Unknown specific access (bit 10)
+.
+
+MessageId	=1563
+Language    =English
+Unknown specific access (bit 11)
+.
+
+MessageId	=1564
+Language    =English
+Unknown specific access (bit 12)
+.
+
+MessageId	=1565
+Language    =English
+Unknown specific access (bit 13)
+.
+
+MessageId	=1566
+Language    =English
+Unknown specific access (bit 14)
+.
+
+MessageId	=1567
+Language    =English
+Unknown specific access (bit 15)
+.
+
+MessageId	=1601
+Language    =English
+Not used
+.
+
+MessageId	=1603
+Language    =English
+Assign Primary Token Privilege
+.
+
+MessageId	=1604
+Language    =English
+Lock Memory Privilege
+.
+
+MessageId	=1605
+Language    =English
+Increase Memory Quota Privilege
+.
+
+MessageId	=1606
+Language    =English
+Unsolicited Input Privilege
+.
+
+MessageId	=1607
+Language    =English
+Trusted Computer Base Privilege
+.
+
+MessageId	=1608
+Language    =English
+Security Privilege
+.
+
+MessageId	=1609
+Language    =English
+Take Ownership Privilege
+.
+
+MessageId	=1610
+Language    =English
+Load/Unload Driver Privilege
+.
+
+MessageId	=1611
+Language    =English
+Profile System Privilege
+.
+
+MessageId	=1612
+Language    =English
+Set System Time Privilege
+.
+
+MessageId	=1613
+Language    =English
+Profile Single Process Privilege
+.
+
+MessageId	=1614
+Language    =English
+Increment Base Priority Privilege
+.
+
+MessageId	=1615
+Language    =English
+Create Pagefile Privilege
+.
+
+MessageId	=1616
+Language    =English
+Create Permanent Object Privilege
+.
+
+MessageId	=1617
+Language    =English
+Backup Privilege
+.
+
+MessageId	=1618
+Language    =English
+Restore From Backup Privilege
+.
+
+MessageId	=1619
+Language    =English
+Shutdown System Privilege
+.
+
+MessageId	=1620
+Language    =English
+Debug Privilege
+.
+
+MessageId	=1621
+Language    =English
+View or Change Audit Log Privilege
+.
+
+MessageId	=1622
+Language    =English
+Change Hardware Environment Privilege
+.
+
+MessageId	=1623
+Language    =English
+Change Notify (and Traverse) Privilege
+.
+
+MessageId	=1624
+Language    =English
+Remotely Shut System Down Privilege
+.
+
+MessageId	=1792
+Language    =English
+<value changed, but not displayed>
+.
+
+MessageId	=1793
+Language    =English
+<value not set>
+.
+
+MessageId	=1794
+Language    =English
+<never>
+.
+
+MessageId	=1795
+Language    =English
+Enabled
+.
+
+MessageId	=1796
+Language    =English
+Disabled
+.
+
+MessageId	=1797
+Language    =English
+All
+.
+
+MessageId	=1798
+Language    =English
+None
+.
+
+MessageId	=1799
+Language    =English
+Audit Policy query/set API Operation
+.
+
+MessageId	=1800
+Language    =English
+<Value change auditing for this registry type is not supported>
+.
+
+MessageId	=1801
+Language    =English
+Granted by
+.
+
+MessageId	=1802
+Language    =English
+Denied by
+.
+
+MessageId	=1803
+Language    =English
+Denied by Integrity Policy check
+.
+
+MessageId	=1804
+Language    =English
+Granted by Ownership
+.
+
+MessageId	=1805
+Language    =English
+Not granted
+.
+
+MessageId	=1806
+Language    =English
+Granted by NULL DACL
+.
+
+MessageId	=1807
+Language    =English
+Denied by Empty DACL
+.
+
+MessageId	=1808
+Language    =English
+Granted by NULL Security Descriptor
+.
+
+MessageId	=1809
+Language    =English
+Unknown or unchecked
+.
+
+MessageId	=1810
+Language    =English
+Not granted due to missing
+.
+
+MessageId	=1811
+Language    =English
+Granted by ACE on parent folder
+.
+
+MessageId	=1812
+Language    =English
+Denied by ACE on parent folder
+.
+
+MessageId   =1813
+Language    =English
+Granted by Central Access Rule
+.
+
+MessageId   =1814
+Language    =English
+NOT Granted by Central Access Rule
+.
+
+MessageId   =1815
+Language    =English
+Granted by parent folder's Central Access Rule
+.
+
+MessageId   =1816
+Language    =English
+NOT Granted by parent folder's Central Access Rule
+.
+
+MessageId   =1817
+Language    =English
+Unknown Type
+.
+
+MessageId   =1818
+Language    =English
+String
+.
+
+MessageId   =1819
+Language    =English
+Unsigned 64-bit Integer
+.
+
+MessageId   =1820
+Language    =English
+64-bit Integer
+.
+
+MessageId   =1821
+Language    =English
+FQBN
+.
+
+MessageId   =1822
+Language    =English
+Blob
+.
+
+MessageId   =1823
+Language    =English
+Sid
+.
+
+MessageId   =1824
+Language    =English
+Boolean
+.
+
+MessageId   =1825
+Language    =English
+True
+.
+
+MessageId   =1826
+Language    =English
+False
+.
+
+MessageId   =1827
+Language    =English
+Invalid
+.
+
+MessageId   =1828
+Language    =English
+an ACE too long to display
+.
+
+MessageId   =1829
+Language    =English
+a Security Descriptor too long to display
+.
+
+MessageId   =1830
+Language    =English
+Not granted to AppContainers
+.
+
+MessageId   =1831
+Language    =English
+...
+.
+
+MessageId   =1832
+Language    =English
+Identification
+.
+
+MessageId   =1833
+Language    =English
+Impersonation
+.
+
+MessageId   =1840
+Language    =English
+Delegation
+.
+
+MessageId	=1872
+Language    =English
+REG_NONE
+.
+
+MessageId	=1873
+Language    =English
+REG_SZ
+.
+
+MessageId	=1874
+Language    =English
+REG_EXPAND_SZ
+.
+
+MessageId	=1875
+Language    =English
+REG_BINARY
+.
+
+MessageId	=1876
+Language    =English
+REG_DWORD
+.
+
+MessageId	=1877
+Language    =English
+REG_DWORD_BIG_ENDIAN
+.
+
+MessageId	=1878
+Language    =English
+REG_LINK
+.
+
+MessageId	=1879
+Language    =English
+REG_MULTI_SZ (New lines are replaced with *. A * is replaced with **)
+.
+
+MessageId	=1880
+Language    =English
+REG_RESOURCE_LIST
+.
+
+MessageId	=1881
+Language    =English
+REG_FULL_RESOURCE_DESCRIPTOR
+.
+
+MessageId	=1882
+Language    =English
+REG_RESOURCE_REQUIREMENTS_LIST
+.
+
+MessageId	=1883
+Language    =English
+REG_QWORD
+.
+
+MessageId	=1904
+Language    =English
+New registry value created
+.
+
+MessageId	=1905
+Language    =English
+Existing registry value modified
+.
+
+MessageId	=1906
+Language    =English
+Registry value deleted
+.
+
+MessageId	=1920
+Language    =English
+Sunday
+.
+
+MessageId	=1921
+Language    =English
+Monday
+.
+
+MessageId	=1922
+Language    =English
+Tuesday
+.
+
+MessageId	=1923
+Language    =English
+Wednesday
+.
+
+MessageId	=1924
+Language    =English
+Thursday
+.
+
+MessageId	=1925
+Language    =English
+Friday
+.
+
+MessageId	=1926
+Language    =English
+Saturday
+.
+
+MessageId	=1936
+Language    =English
+TokenElevationTypeDefault (1)
+.
+
+MessageId	=1937
+Language    =English
+TokenElevationTypeFull (2)
+.
+
+MessageId	=1938
+Language    =English
+TokenElevationTypeLimited (3)
+.
+
+MessageId	=2048
+Language    =English
+Account Enabled
+.
+
+MessageId	=2049
+Language    =English
+'Home Directory Required' - Disabled
+.
+
+MessageId	=2050
+Language    =English
+'Password Not Required' - Disabled
+.
+
+MessageId	=2051
+Language    =English
+'Temp Duplicate Account' - Disabled
+.
+
+MessageId	=2052
+Language    =English
+'Normal Account' - Disabled
+.
+
+MessageId	=2053
+Language    =English
+'MNS Logon Account' - Disabled
+.
+
+MessageId	=2054
+Language    =English
+'Interdomain Trust Account' - Disabled
+.
+
+MessageId	=2055
+Language    =English
+'Workstation Trust Account' - Disabled
+.
+
+MessageId	=2056
+Language    =English
+'Server Trust Account' - Disabled
+.
+
+MessageId	=2057
+Language    =English
+'Don't Expire Password' - Disabled
+.
+
+MessageId	=2058
+Language    =English
+Account Unlocked
+.
+
+MessageId	=2059
+Language    =English
+'Encrypted Text Password Allowed' - Disabled
+.
+
+MessageId	=2060
+Language    =English
+'Smartcard Required' - Disabled
+.
+
+MessageId	=2061
+Language    =English
+'Trusted For Delegation' - Disabled
+.
+
+MessageId	=2062
+Language    =English
+'Not Delegated' - Disabled
+.
+
+MessageId	=2063
+Language    =English
+'Use DES Key Only' - Disabled
+.
+
+MessageId	=2064
+Language    =English
+'Don't Require Preauth' - Disabled
+.
+
+MessageId	=2065
+Language    =English
+'Password Expired' - Disabled
+.
+
+MessageId	=2066
+Language    =English
+'Trusted To Authenticate For Delegation' - Disabled
+.
+
+MessageId	=2067
+Language    =English
+'Exclude Authorization Information' - Disabled
+.
+
+MessageId	=2068
+Language    =English
+'Undefined UserAccountControl Bit 20' - Disabled
+.
+
+MessageId	=2069
+Language    =English
+'Protect Kerberos Service Tickets with AES Keys' - Disabled
+.
+
+MessageId	=2070
+Language    =English
+'Undefined UserAccountControl Bit 22' - Disabled
+.
+
+MessageId	=2071
+Language    =English
+'Undefined UserAccountControl Bit 23' - Disabled
+.
+
+MessageId	=2072
+Language    =English
+'Undefined UserAccountControl Bit 24' - Disabled
+.
+
+MessageId	=2073
+Language    =English
+'Undefined UserAccountControl Bit 25' - Disabled
+.
+
+MessageId	=2074
+Language    =English
+'Undefined UserAccountControl Bit 26' - Disabled
+.
+
+MessageId	=2075
+Language    =English
+'Undefined UserAccountControl Bit 27' - Disabled
+.
+
+MessageId	=2076
+Language    =English
+'Undefined UserAccountControl Bit 28' - Disabled
+.
+
+MessageId	=2077
+Language    =English
+'Undefined UserAccountControl Bit 29' - Disabled
+.
+
+MessageId	=2078
+Language    =English
+'Undefined UserAccountControl Bit 30' - Disabled
+.
+
+MessageId	=2079
+Language    =English
+'Undefined UserAccountControl Bit 31' - Disabled
+.
+
+MessageId	=2080
+Language    =English
+Account Disabled
+.
+
+MessageId	=2081
+Language    =English
+'Home Directory Required' - Enabled
+.
+
+MessageId	=2082
+Language    =English
+'Password Not Required' - Enabled
+.
+
+MessageId	=2083
+Language    =English
+'Temp Duplicate Account' - Enabled
+.
+
+MessageId	=2084
+Language    =English
+'Normal Account' - Enabled
+.
+
+MessageId	=2085
+Language    =English
+'MNS Logon Account' - Enabled
+.
+
+MessageId	=2086
+Language    =English
+'Interdomain Trust Account' - Enabled
+.
+
+MessageId	=2087
+Language    =English
+'Workstation Trust Account' - Enabled
+.
+
+MessageId	=2088
+Language    =English
+'Server Trust Account' - Enabled
+.
+
+MessageId	=2089
+Language    =English
+'Don't Expire Password' - Enabled
+.
+
+MessageId	=2090
+Language    =English
+Account Locked
+.
+
+MessageId	=2091
+Language    =English
+'Encrypted Text Password Allowed' - Enabled
+.
+
+MessageId	=2092
+Language    =English
+'Smartcard Required' - Enabled
+.
+
+MessageId	=2093
+Language    =English
+'Trusted For Delegation' - Enabled
+.
+
+MessageId	=2094
+Language    =English
+'Not Delegated' - Enabled
+.
+
+MessageId	=2095
+Language    =English
+'Use DES Key Only' - Enabled
+.
+
+MessageId	=2096
+Language    =English
+'Don't Require Preauth' - Enabled
+.
+
+MessageId	=2097
+Language    =English
+'Password Expired' - Enabled
+.
+
+MessageId	=2098
+Language    =English
+'Trusted To Authenticate For Delegation' - Enabled
+.
+
+MessageId	=2099
+Language    =English
+'Exclude Authorization Information' - Enabled
+.
+
+MessageId	=2100
+Language    =English
+'Undefined UserAccountControl Bit 20' - Enabled
+.
+
+MessageId	=2101
+Language    =English
+'Protect Kerberos Service Tickets with AES Keys' - Enabled
+.
+
+MessageId	=2102
+Language    =English
+'Undefined UserAccountControl Bit 22' - Enabled
+.
+
+MessageId	=2103
+Language    =English
+'Undefined UserAccountControl Bit 23' - Enabled
+.
+
+MessageId	=2104
+Language    =English
+'Undefined UserAccountControl Bit 24' - Enabled
+.
+
+MessageId	=2105
+Language    =English
+'Undefined UserAccountControl Bit 25' - Enabled
+.
+
+MessageId	=2106
+Language    =English
+'Undefined UserAccountControl Bit 26' - Enabled
+.
+
+MessageId	=2107
+Language    =English
+'Undefined UserAccountControl Bit 27' - Enabled
+.
+
+MessageId	=2108
+Language    =English
+'Undefined UserAccountControl Bit 28' - Enabled
+.
+
+MessageId	=2109
+Language    =English
+'Undefined UserAccountControl Bit 29' - Enabled
+.
+
+MessageId	=2110
+Language    =English
+'Undefined UserAccountControl Bit 30' - Enabled
+.
+
+MessageId	=2111
+Language    =English
+'Undefined UserAccountControl Bit 31' - Enabled
+.
+
+MessageId	=2304
+Language    =English
+An Error occured during Logon.
+.
+
+MessageId	=2305
+Language    =English
+The specified user account has expired.
+.
+
+MessageId	=2306
+Language    =English
+The NetLogon component is not active.
+.
+
+MessageId	=2307
+Language    =English
+Account locked out.
+.
+
+MessageId	=2308
+Language    =English
+The user has not been granted the requested logon type at this machine.
+.
+
+MessageId	=2309
+Language    =English
+The specified account's password has expired.
+.
+
+MessageId	=2310
+Language    =English
+Account currently disabled.
+.
+
+MessageId	=2311
+Language    =English
+Account logon time restriction violation.
+.
+
+MessageId	=2312
+Language    =English
+User not allowed to logon at this computer.
+.
+
+MessageId	=2313
+Language    =English
+Unknown user name or bad password.
+.
+
+MessageId	=2314
+Language    =English
+Domain sid inconsistent.
+.
+
+MessageId	=2315
+Language    =English
+Smartcard logon is required and was not used.
+.
+
+MessageId	=2432
+Language    =English
+Not Available.
+.
+
+MessageId	=2436
+Language    =English
+Random number generator failure.
+.
+
+MessageId	=2437
+Language    =English
+Random number generation failed FIPS-140 pre-hash check.
+.
+
+MessageId	=2438
+Language    =English
+Failed to zero secret data.
+.
+
+MessageId	=2439
+Language    =English
+Key failed pair wise consistency check.
+.
+
+MessageId	=2448
+Language    =English
+Failed to unprotect persistent cryptographic key.
+.
+
+MessageId	=2449
+Language    =English
+Key export checks failed.
+.
+
+MessageId	=2450
+Language    =English
+Validation of public key failed.
+.
+
+MessageId	=2451
+Language    =English
+Signature verification failed.
+.
+
+MessageId	=2456
+Language    =English
+Open key file.
+.
+
+MessageId	=2457
+Language    =English
+Delete key file.
+.
+
+MessageId	=2458
+Language    =English
+Read persisted key from file.
+.
+
+MessageId	=2459
+Language    =English
+Write persisted key to file.
+.
+
+MessageId	=2464
+Language    =English
+Export of persistent cryptographic key.
+.
+
+MessageId	=2465
+Language    =English
+Import of persistent cryptographic key.
+.
+
+MessageId	=2480
+Language    =English
+Open Key.
+.
+
+MessageId	=2481
+Language    =English
+Create Key.
+.
+
+MessageId	=2482
+Language    =English
+Delete Key.
+.
+
+MessageId	=2483
+Language    =English
+Encrypt.
+.
+
+MessageId	=2484
+Language    =English
+Decrypt.
+.
+
+MessageId	=2485
+Language    =English
+Sign hash.
+.
+
+MessageId	=2486
+Language    =English
+Secret agreement.
+.
+
+MessageId	=2487
+Language    =English
+Domain settings
+.
+
+MessageId	=2488
+Language    =English
+Local settings
+.
+
+MessageId	=2489
+Language    =English
+Add provider.
+.
+
+MessageId	=2490
+Language    =English
+Remove provider.
+.
+
+MessageId	=2491
+Language    =English
+Add context.
+.
+
+MessageId	=2492
+Language    =English
+Remove context.
+.
+
+MessageId	=2493
+Language    =English
+Add function.
+.
+
+MessageId	=2494
+Language    =English
+Remove function.
+.
+
+MessageId	=2495
+Language    =English
+Add function provider.
+.
+
+MessageId	=2496
+Language    =English
+Remove function provider.
+.
+
+MessageId	=2497
+Language    =English
+Add function property.
+.
+
+MessageId	=2498
+Language    =English
+Remove function property.
+.
+
+MessageId	=2499
+Language    =English
+Machine key.
+.
+
+MessageId	=2500
+Language    =English
+User key.
+.
+
+MessageId	=2501
+Language    =English
+Key Derivation.
+.
+
+MessageId	=4352
+Language    =English
+Device Access Bit 0
+.
+
+MessageId	=4353
+Language    =English
+Device Access Bit 1
+.
+
+MessageId	=4354
+Language    =English
+Device Access Bit 2
+.
+
+MessageId	=4355
+Language    =English
+Device Access Bit 3
+.
+
+MessageId	=4356
+Language    =English
+Device Access Bit 4
+.
+
+MessageId	=4357
+Language    =English
+Device Access Bit 5
+.
+
+MessageId	=4358
+Language    =English
+Device Access Bit 6
+.
+
+MessageId	=4359
+Language    =English
+Device Access Bit 7
+.
+
+MessageId	=4360
+Language    =English
+Device Access Bit 8
+.
+
+MessageId	=4361
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=4362
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4363
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4364
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4365
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4366
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4367
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4368
+Language    =English
+Query directory
+.
+
+MessageId	=4369
+Language    =English
+Traverse
+.
+
+MessageId	=4370
+Language    =English
+Create object in directory
+.
+
+MessageId	=4371
+Language    =English
+Create sub-directory
+.
+
+MessageId	=4372
+Language    =English
+Undefined Access (no effect) Bit 4
+.
+
+MessageId	=4373
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=4374
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=4375
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=4376
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=4377
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=4378
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4379
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4380
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4381
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4382
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4383
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4384
+Language    =English
+Query event state
+.
+
+MessageId	=4385
+Language    =English
+Modify event state
+.
+
+MessageId	=4386
+Language    =English
+Undefined Access (no effect) Bit 2
+.
+
+MessageId	=4387
+Language    =English
+Undefined Access (no effect) Bit 3
+.
+
+MessageId	=4388
+Language    =English
+Undefined Access (no effect) Bit 4
+.
+
+MessageId	=4389
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=4390
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=4391
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=4392
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=4393
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=4394
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4395
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4396
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4397
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4398
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4399
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4416
+Language    =English
+ReadData (or ListDirectory)
+.
+
+MessageId	=4417
+Language    =English
+WriteData (or AddFile)
+.
+
+MessageId	=4418
+Language    =English
+AppendData (or AddSubdirectory or CreatePipeInstance)
+.
+
+MessageId	=4419
+Language    =English
+ReadEA
+.
+
+MessageId	=4420
+Language    =English
+WriteEA
+.
+
+MessageId	=4421
+Language    =English
+Execute/Traverse
+.
+
+MessageId	=4422
+Language    =English
+DeleteChild
+.
+
+MessageId	=4423
+Language    =English
+ReadAttributes
+.
+
+MessageId	=4424
+Language    =English
+WriteAttributes
+.
+
+MessageId	=4425
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=4426
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4427
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4428
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4429
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4430
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4431
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4432
+Language    =English
+Query key value
+.
+
+MessageId	=4433
+Language    =English
+Set key value
+.
+
+MessageId	=4434
+Language    =English
+Create sub-key
+.
+
+MessageId	=4435
+Language    =English
+Enumerate sub-keys
+.
+
+MessageId	=4436
+Language    =English
+Notify about changes to keys
+.
+
+MessageId	=4437
+Language    =English
+Create Link
+.
+
+MessageId	=4438
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=4439
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=4440
+Language    =English
+Enable 64(or 32) bit application to open 64 bit key
+.
+
+MessageId	=4441
+Language    =English
+Enable 64(or 32) bit application to open 32 bit key
+.
+
+MessageId	=4442
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4443
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4444
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4445
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4446
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4447
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4448
+Language    =English
+Query mutant state
+.
+
+MessageId	=4449
+Language    =English
+Undefined Access (no effect) Bit 1
+.
+
+MessageId	=4450
+Language    =English
+Undefined Access (no effect) Bit 2
+.
+
+MessageId	=4451
+Language    =English
+Undefined Access (no effect) Bit 3
+.
+
+MessageId	=4452
+Language    =English
+Undefined Access (no effect) Bit 4
+.
+
+MessageId	=4453
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=4454
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=4455
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=4456
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=4457
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=4458
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4459
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4460
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4461
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4462
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4463
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4464
+Language    =English
+Communicate using port
+.
+
+MessageId	=4465
+Language    =English
+Undefined Access (no effect) Bit 1
+.
+
+MessageId	=4466
+Language    =English
+Undefined Access (no effect) Bit 2
+.
+
+MessageId	=4467
+Language    =English
+Undefined Access (no effect) Bit 3
+.
+
+MessageId	=4468
+Language    =English
+Undefined Access (no effect) Bit 4
+.
+
+MessageId	=4469
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=4470
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=4471
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=4472
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=4473
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=4474
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4475
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4476
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4477
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4478
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4479
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4480
+Language    =English
+Force process termination
+.
+
+MessageId	=4481
+Language    =English
+Create new thread in process
+.
+
+MessageId	=4482
+Language    =English
+Set process session ID
+.
+
+MessageId	=4483
+Language    =English
+Perform virtual memory operation
+.
+
+MessageId	=4484
+Language    =English
+Read from process memory
+.
+
+MessageId	=4485
+Language    =English
+Write to process memory
+.
+
+MessageId	=4486
+Language    =English
+Duplicate handle into or out of process
+.
+
+MessageId	=4487
+Language    =English
+Create a subprocess of process
+.
+
+MessageId	=4488
+Language    =English
+Set process quotas
+.
+
+MessageId	=4489
+Language    =English
+Set process information
+.
+
+MessageId	=4490
+Language    =English
+Query process information
+.
+
+MessageId	=4491
+Language    =English
+Set process termination port
+.
+
+MessageId	=4492
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4493
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4494
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4495
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4496
+Language    =English
+Control profile
+.
+
+MessageId	=4497
+Language    =English
+Undefined Access (no effect) Bit 1
+.
+
+MessageId	=4498
+Language    =English
+Undefined Access (no effect) Bit 2
+.
+
+MessageId	=4499
+Language    =English
+Undefined Access (no effect) Bit 3
+.
+
+MessageId	=4500
+Language    =English
+Undefined Access (no effect) Bit 4
+.
+
+MessageId	=4501
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=4502
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=4503
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=4504
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=4505
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=4506
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4507
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4508
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4509
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4510
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4511
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4512
+Language    =English
+Query section state
+.
+
+MessageId	=4513
+Language    =English
+Map section for write
+.
+
+MessageId	=4514
+Language    =English
+Map section for read
+.
+
+MessageId	=4515
+Language    =English
+Map section for execute
+.
+
+MessageId	=4516
+Language    =English
+Extend size
+.
+
+MessageId	=4517
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=4518
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=4519
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=4520
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=4521
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=4522
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4523
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4524
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4525
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4526
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4527
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4528
+Language    =English
+Query semaphore state
+.
+
+MessageId	=4529
+Language    =English
+Modify semaphore state
+.
+
+MessageId	=4530
+Language    =English
+Undefined Access (no effect) Bit 2
+.
+
+MessageId	=4531
+Language    =English
+Undefined Access (no effect) Bit 3
+.
+
+MessageId	=4532
+Language    =English
+Undefined Access (no effect) Bit 4
+.
+
+MessageId	=4533
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=4534
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=4535
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=4536
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=4537
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=4538
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4539
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4540
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4541
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4542
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4543
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4544
+Language    =English
+Use symbolic link
+.
+
+MessageId	=4545
+Language    =English
+Undefined Access (no effect) Bit 1
+.
+
+MessageId	=4546
+Language    =English
+Undefined Access (no effect) Bit 2
+.
+
+MessageId	=4547
+Language    =English
+Undefined Access (no effect) Bit 3
+.
+
+MessageId	=4548
+Language    =English
+Undefined Access (no effect) Bit 4
+.
+
+MessageId	=4549
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=4550
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=4551
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=4552
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=4553
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=4554
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4555
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4556
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4557
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4558
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4559
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4560
+Language    =English
+Force thread termination
+.
+
+MessageId	=4561
+Language    =English
+Suspend or resume thread
+.
+
+MessageId	=4562
+Language    =English
+Send an alert to thread
+.
+
+MessageId	=4563
+Language    =English
+Get thread context
+.
+
+MessageId	=4564
+Language    =English
+Set thread context
+.
+
+MessageId	=4565
+Language    =English
+Set thread information
+.
+
+MessageId	=4566
+Language    =English
+Query thread information
+.
+
+MessageId	=4567
+Language    =English
+Assign a token to the thread
+.
+
+MessageId	=4568
+Language    =English
+Cause thread to directly impersonate another thread
+.
+
+MessageId	=4569
+Language    =English
+Directly impersonate this thread
+.
+
+MessageId	=4570
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4571
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4572
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4573
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4574
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4575
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4576
+Language    =English
+Query timer state
+.
+
+MessageId	=4577
+Language    =English
+Modify timer state
+.
+
+MessageId	=4578
+Language    =English
+Undefined Access (no effect) Bit 2
+.
+
+MessageId	=4579
+Language    =English
+Undefined Access (no effect) Bit 3
+.
+
+MessageId	=4580
+Language    =English
+Undefined Access (no effect) Bit 4
+.
+
+MessageId	=4581
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=4582
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=4584
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=4585
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=4586
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4587
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4588
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4589
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4590
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4591
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4592
+Language    =English
+AssignAsPrimary
+.
+
+MessageId	=4593
+Language    =English
+Duplicate
+.
+
+MessageId	=4594
+Language    =English
+Impersonate
+.
+
+MessageId	=4595
+Language    =English
+Query
+.
+
+MessageId	=4596
+Language    =English
+QuerySource
+.
+
+MessageId	=4597
+Language    =English
+AdjustPrivileges
+.
+
+MessageId	=4598
+Language    =English
+AdjustGroups
+.
+
+MessageId	=4599
+Language    =English
+AdjustDefaultDacl
+.
+
+MessageId	=4600
+Language    =English
+AdjustSessionID
+.
+
+MessageId	=4601
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=4602
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4603
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4604
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4605
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4606
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4607
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4608
+Language    =English
+Create instance of object type
+.
+
+MessageId	=4609
+Language    =English
+Undefined Access (no effect) Bit 1
+.
+
+MessageId	=4610
+Language    =English
+Undefined Access (no effect) Bit 2
+.
+
+MessageId	=4611
+Language    =English
+Undefined Access (no effect) Bit 3
+.
+
+MessageId	=4612
+Language    =English
+Undefined Access (no effect) Bit 4
+.
+
+MessageId	=4613
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=4614
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=4615
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=4616
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=4617
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=4618
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=4619
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=4620
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=4621
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=4622
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=4623
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=4864
+Language    =English
+Query State
+.
+
+MessageId	=4865
+Language    =English
+Modify State
+.
+
+MessageId	=5120
+Language    =English
+Channel read message
+.
+
+MessageId	=5121
+Language    =English
+Channel write message
+.
+
+MessageId	=5122
+Language    =English
+Channel query information
+.
+
+MessageId	=5123
+Language    =English
+Channel set information
+.
+
+MessageId	=5124
+Language    =English
+Undefined Access (no effect) Bit 4
+.
+
+MessageId	=5125
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=5126
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=5127
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=5128
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=5129
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=5130
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=5131
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=5132
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=5133
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=5134
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=5135
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=5136
+Language    =English
+Assign process
+.
+
+MessageId	=5137
+Language    =English
+Set Attributes
+.
+
+MessageId	=5138
+Language    =English
+Query Attributes
+.
+
+MessageId	=5139
+Language    =English
+Terminate Job
+.
+
+MessageId	=5140
+Language    =English
+Set Security Attributes
+.
+
+MessageId	=5141
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=5142
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=5143
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=5144
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=5145
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=5146
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=5147
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=5148
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=5149
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=5150
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=5151
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=5376
+Language    =English
+ConnectToServer
+.
+
+MessageId	=5377
+Language    =English
+ShutdownServer
+.
+
+MessageId	=5378
+Language    =English
+InitializeServer
+.
+
+MessageId	=5379
+Language    =English
+CreateDomain
+.
+
+MessageId	=5380
+Language    =English
+EnumerateDomains
+.
+
+MessageId	=5381
+Language    =English
+LookupDomain
+.
+
+MessageId	=5382
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=5383
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=5384
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=5385
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=5386
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=5387
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=5388
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=5389
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=5390
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=5391
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=5392
+Language    =English
+ReadPasswordParameters
+.
+
+MessageId	=5393
+Language    =English
+WritePasswordParameters
+.
+
+MessageId	=5394
+Language    =English
+ReadOtherParameters
+.
+
+MessageId	=5395
+Language    =English
+WriteOtherParameters
+.
+
+MessageId	=5396
+Language    =English
+CreateUser
+.
+
+MessageId	=5397
+Language    =English
+CreateGlobalGroup
+.
+
+MessageId	=5398
+Language    =English
+CreateLocalGroup
+.
+
+MessageId	=5399
+Language    =English
+GetLocalGroupMembership
+.
+
+MessageId	=5400
+Language    =English
+ListAccounts
+.
+
+MessageId	=5401
+Language    =English
+LookupIDs
+.
+
+MessageId	=5402
+Language    =English
+AdministerServer
+.
+
+MessageId	=5403
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=5404
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=5405
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=5406
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=5407
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=5408
+Language    =English
+ReadInformation
+.
+
+MessageId	=5409
+Language    =English
+WriteAccount
+.
+
+MessageId	=5410
+Language    =English
+AddMember
+.
+
+MessageId	=5411
+Language    =English
+RemoveMember
+.
+
+MessageId	=5412
+Language    =English
+ListMembers
+.
+
+MessageId	=5413
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=5414
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=5415
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=5416
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=5417
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=5418
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=5419
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=5420
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=5421
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=5422
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=5423
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=5424
+Language    =English
+AddMember
+.
+
+MessageId	=5425
+Language    =English
+RemoveMember
+.
+
+MessageId	=5426
+Language    =English
+ListMembers
+.
+
+MessageId	=5427
+Language    =English
+ReadInformation
+.
+
+MessageId	=5428
+Language    =English
+WriteAccount
+.
+
+MessageId	=5429
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=5430
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=5431
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=5432
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=5433
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=5434
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=5435
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=5436
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=5437
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=5438
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=5439
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=5440
+Language    =English
+ReadGeneralInformation
+.
+
+MessageId	=5441
+Language    =English
+ReadPreferences
+.
+
+MessageId	=5442
+Language    =English
+WritePreferences
+.
+
+MessageId	=5443
+Language    =English
+ReadLogon
+.
+
+MessageId	=5444
+Language    =English
+ReadAccount
+.
+
+MessageId	=5445
+Language    =English
+WriteAccount
+.
+
+MessageId	=5446
+Language    =English
+ChangePassword (with knowledge of old password)
+.
+
+MessageId	=5447
+Language    =English
+SetPassword (without knowledge of old password)
+.
+
+MessageId	=5448
+Language    =English
+ListGroups
+.
+
+MessageId	=5449
+Language    =English
+ReadGroupMembership
+.
+
+MessageId	=5450
+Language    =English
+ChangeGroupMembership
+.
+
+MessageId	=5451
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=5452
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=5453
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=5454
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=5455
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=5632
+Language    =English
+View non-sensitive policy information
+.
+
+MessageId	=5633
+Language    =English
+View system audit requirements
+.
+
+MessageId	=5634
+Language    =English
+Get sensitive policy information
+.
+
+MessageId	=5635
+Language    =English
+Modify domain trust relationships
+.
+
+MessageId	=5636
+Language    =English
+Create special accounts (for assignment of user rights)
+.
+
+MessageId	=5637
+Language    =English
+Create a secret object
+.
+
+MessageId	=5638
+Language    =English
+Create a privilege
+.
+
+MessageId	=5639
+Language    =English
+Set default quota limits
+.
+
+MessageId	=5640
+Language    =English
+Change system audit requirements
+.
+
+MessageId	=5641
+Language    =English
+Administer audit log attributes
+.
+
+MessageId	=5642
+Language    =English
+Enable/Disable LSA
+.
+
+MessageId	=5643
+Language    =English
+Lookup Names/SIDs
+.
+
+MessageId	=5648
+Language    =English
+Change secret value
+.
+
+MessageId	=5649
+Language    =English
+Query secret value
+.
+
+MessageId	=5650
+Language    =English
+Undefined Access (no effect) Bit 2
+.
+
+MessageId	=5651
+Language    =English
+Undefined Access (no effect) Bit 3
+.
+
+MessageId	=5652
+Language    =English
+Undefined Access (no effect) Bit 4
+.
+
+MessageId	=5653
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=5654
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=5655
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=5656
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=5657
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=5658
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=5659
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=5660
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=5661
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=5662
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=5663
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=5664
+Language    =English
+Query trusted domain name/SID
+.
+
+MessageId	=5665
+Language    =English
+Retrieve the controllers in the trusted domain
+.
+
+MessageId	=5666
+Language    =English
+Change the controllers in the trusted domain
+.
+
+MessageId	=5667
+Language    =English
+Query the Posix ID offset assigned to the trusted domain
+.
+
+MessageId	=5668
+Language    =English
+Change the Posix ID offset assigned to the trusted domain
+.
+
+MessageId	=5669
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=5670
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=5671
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=5672
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=5673
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=5674
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=5675
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=5676
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=5677
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=5678
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=5679
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=5680
+Language    =English
+Query account information
+.
+
+MessageId	=5681
+Language    =English
+Change privileges assigned to account
+.
+
+MessageId	=5682
+Language    =English
+Change quotas assigned to account
+.
+
+MessageId	=5683
+Language    =English
+Change logon capabilities assigned to account
+.
+
+MessageId	=5684
+Language    =English
+Change the Posix ID offset assigned to the accounted domain
+.
+
+MessageId	=5685
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=5686
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=5687
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=5688
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=5689
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=5690
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=5691
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=5692
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=5693
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=5694
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=5695
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=5696
+Language    =English
+KeyedEvent Wait
+.
+
+MessageId	=5697
+Language    =English
+KeyedEvent Wake
+.
+
+MessageId	=5698
+Language    =English
+Undefined Access (no effect) Bit 2
+.
+
+MessageId	=5699
+Language    =English
+Undefined Access (no effect) Bit 3
+.
+
+MessageId	=5700
+Language    =English
+Undefined Access (no effect) Bit 4
+.
+
+MessageId	=5701
+Language    =English
+Undefined Access (no effect) Bit 5
+.
+
+MessageId	=5702
+Language    =English
+Undefined Access (no effect) Bit 6
+.
+
+MessageId	=5703
+Language    =English
+Undefined Access (no effect) Bit 7
+.
+
+MessageId	=5704
+Language    =English
+Undefined Access (no effect) Bit 8
+.
+
+MessageId	=5705
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=5706
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=5707
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=5708
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=5709
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=5710
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=5711
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=6656
+Language    =English
+Enumerate desktops
+.
+
+MessageId	=6657
+Language    =English
+Read attributes
+.
+
+MessageId	=6658
+Language    =English
+Access Clipboard
+.
+
+MessageId	=6659
+Language    =English
+Create desktop
+.
+
+MessageId	=6660
+Language    =English
+Write attributes
+.
+
+MessageId	=6661
+Language    =English
+Access global atoms
+.
+
+MessageId	=6662
+Language    =English
+Exit windows
+.
+
+MessageId	=6663
+Language    =English
+Unused Access Flag
+.
+
+MessageId	=6664
+Language    =English
+Include this windowstation in enumerations
+.
+
+MessageId	=6665
+Language    =English
+Read screen
+.
+
+MessageId	=6672
+Language    =English
+Read Objects
+.
+
+MessageId	=6673
+Language    =English
+Create window
+.
+
+MessageId	=6674
+Language    =English
+Create menu
+.
+
+MessageId	=6675
+Language    =English
+Hook control
+.
+
+MessageId	=6676
+Language    =English
+Journal (record)
+.
+
+MessageId	=6677
+Language    =English
+Journal (playback)
+.
+
+MessageId	=6678
+Language    =English
+Include this desktop in enumerations
+.
+
+MessageId	=6679
+Language    =English
+Write objects
+.
+
+MessageId	=6680
+Language    =English
+Switch to this desktop
+.
+
+MessageId	=6912
+Language    =English
+Administer print server
+.
+
+MessageId	=6913
+Language    =English
+Enumerate printers
+.
+
+MessageId	=6930
+Language    =English
+Full Control
+.
+
+MessageId	=6931
+Language    =English
+Print
+.
+
+MessageId	=6948
+Language    =English
+Administer Document
+.
+
+MessageId	=7168
+Language    =English
+Connect to service controller
+.
+
+MessageId	=7169
+Language    =English
+Create a new service
+.
+
+MessageId	=7170
+Language    =English
+Enumerate services
+.
+
+MessageId	=7171
+Language    =English
+Lock service database for exclusive access
+.
+
+MessageId	=7172
+Language    =English
+Query service database lock state
+.
+
+MessageId	=7173
+Language    =English
+Set last-known-good state of service database
+.
+
+MessageId	=7184
+Language    =English
+Query service configuration information
+.
+
+MessageId	=7185
+Language    =English
+Set service configuration information
+.
+
+MessageId	=7186
+Language    =English
+Query status of service
+.
+
+MessageId	=7187
+Language    =English
+Enumerate dependencies of service
+.
+
+MessageId	=7188
+Language    =English
+Start the service
+.
+
+MessageId	=7189
+Language    =English
+Stop the service
+.
+
+MessageId	=7190
+Language    =English
+Pause or continue the service
+.
+
+MessageId	=7191
+Language    =English
+Query information from service
+.
+
+MessageId	=7192
+Language    =English
+Issue service-specific control commands
+.
+
+MessageId	=7424
+Language    =English
+DDE Share Read
+.
+
+MessageId	=7425
+Language    =English
+DDE Share Write
+.
+
+MessageId	=7426
+Language    =English
+DDE Share Initiate Static
+.
+
+MessageId	=7427
+Language    =English
+DDE Share Initiate Link
+.
+
+MessageId	=7428
+Language    =English
+DDE Share Request
+.
+
+MessageId	=7429
+Language    =English
+DDE Share Advise
+.
+
+MessageId	=7430
+Language    =English
+DDE Share Poke
+.
+
+MessageId	=7431
+Language    =English
+DDE Share Execute
+.
+
+MessageId	=7432
+Language    =English
+DDE Share Add Items
+.
+
+MessageId	=7433
+Language    =English
+DDE Share List Items
+.
+
+MessageId	=7680
+Language    =English
+Create Child
+.
+
+MessageId	=7681
+Language    =English
+Delete Child
+.
+
+MessageId	=7682
+Language    =English
+List Contents
+.
+
+MessageId	=7683
+Language    =English
+Write Self
+.
+
+MessageId	=7684
+Language    =English
+Read Property
+.
+
+MessageId	=7685
+Language    =English
+Write Property
+.
+
+MessageId	=7686
+Language    =English
+Delete Tree
+.
+
+MessageId	=7687
+Language    =English
+List Object
+.
+
+MessageId	=7688
+Language    =English
+Control Access
+.
+
+MessageId	=7689
+Language    =English
+Undefined Access (no effect) Bit 9
+.
+
+MessageId	=7690
+Language    =English
+Undefined Access (no effect) Bit 10
+.
+
+MessageId	=7691
+Language    =English
+Undefined Access (no effect) Bit 11
+.
+
+MessageId	=7692
+Language    =English
+Undefined Access (no effect) Bit 12
+.
+
+MessageId	=7693
+Language    =English
+Undefined Access (no effect) Bit 13
+.
+
+MessageId	=7694
+Language    =English
+Undefined Access (no effect) Bit 14
+.
+
+MessageId	=7695
+Language    =English
+Undefined Access (no effect) Bit 15
+.
+
+MessageId	=7936
+Language    =English
+Audit Set System Policy
+.
+
+MessageId	=7937
+Language    =English
+Audit Query System Policy
+.
+
+MessageId	=7938
+Language    =English
+Audit Set Per User Policy
+.
+
+MessageId	=7939
+Language    =English
+Audit Query Per User Policy
+.
+
+MessageId	=7940
+Language    =English
+Audit Enumerate Users
+.
+
+MessageId	=7941
+Language    =English
+Audit Set Options
+.
+
+MessageId	=7942
+Language    =English
+Audit Query Options
+.
+
+MessageId	=8064
+Language    =English
+Port sharing (read)
+.
+
+MessageId	=8065
+Language    =English
+Port sharing (write)
+.
+
+MessageId	=8096
+Language    =English
+Default credentials
+.
+
+MessageId	=8097
+Language    =English
+Credentials manager
+.
+
+MessageId	=8098
+Language    =English
+Fresh credentials
+.
+
+MessageId	=8192
+Language    =English
+Kerberos
+.
+
+MessageId	=8193
+Language    =English
+Preshared key
+.
+
+MessageId	=8194
+Language    =English
+Unknown authentication
+.
+
+MessageId	=8195
+Language    =English
+DES
+.
+
+MessageId	=8196
+Language    =English
+3DES
+.
+
+MessageId	=8197
+Language    =English
+MD5
+.
+
+MessageId	=8198
+Language    =English
+SHA1
+.
+
+MessageId	=8199
+Language    =English
+Local computer
+.
+
+MessageId	=8200
+Language    =English
+Remote computer
+.
+
+MessageId	=8201
+Language    =English
+No state
+.
+
+MessageId	=8202
+Language    =English
+Sent first (SA) payload
+.
+
+MessageId	=8203
+Language    =English
+Sent second (KE) payload
+.
+
+MessageId	=8204
+Language    =English
+Sent third (ID) payload
+.
+
+MessageId	=8205
+Language    =English
+Initiator
+.
+
+MessageId	=8206
+Language    =English
+Responder
+.
+
+MessageId	=8207
+Language    =English
+No state
+.
+
+MessageId	=8208
+Language    =English
+Sent first (SA) payload
+.
+
+MessageId	=8209
+Language    =English
+Sent final payload
+.
+
+MessageId	=8210
+Language    =English
+Complete
+.
+
+MessageId	=8211
+Language    =English
+Unknown
+.
+
+MessageId	=8212
+Language    =English
+Transport
+.
+
+MessageId	=8213
+Language    =English
+Tunnel
+.
+
+MessageId	=8214
+Language    =English
+IKE/AuthIP DoS prevention mode started
+.
+
+MessageId	=8215
+Language    =English
+IKE/AuthIP DoS prevention mode stopped
+.
+
+MessageId	=8216
+Language    =English
+Enabled
+.
+
+MessageId	=8217
+Language    =English
+Not enabled
+.
+
+MessageId	=8218
+Language    =English
+No state
+.
+
+MessageId	=8219
+Language    =English
+Sent first (EM attributes) payload
+.
+
+MessageId	=8220
+Language    =English
+Sent second (SSPI) payload
+.
+
+MessageId	=8221
+Language    =English
+Sent third (hash) payload
+.
+
+MessageId	=8222
+Language    =English
+IKEv1
+.
+
+MessageId	=8223
+Language    =English
+AuthIP
+.
+
+MessageId	=8224
+Language    =English
+Anonymous
+.
+
+MessageId	=8225
+Language    =English
+NTLM V2
+.
+
+MessageId	=8226
+Language    =English
+CGA
+.
+
+MessageId	=8227
+Language    =English
+Certificate
+.
+
+MessageId	=8228
+Language    =English
+SSL
+.
+
+MessageId	=8229
+Language    =English
+None
+.
+
+MessageId	=8230
+Language    =English
+DH group 1
+.
+
+MessageId	=8231
+Language    =English
+DH group 2
+.
+
+MessageId	=8232
+Language    =English
+DH group 2048
+.
+
+MessageId	=8233
+Language    =English
+DH group ECP 256
+.
+
+MessageId	=8234
+Language    =English
+DH group ECP 384
+.
+
+MessageId	=8235
+Language    =English
+AES-128
+.
+
+MessageId	=8236
+Language    =English
+AES-192
+.
+
+MessageId	=8237
+Language    =English
+AES-256
+.
+
+MessageId	=8238
+Language    =English
+Certificate ECDSA P256
+.
+
+MessageId	=8239
+Language    =English
+Certificate ECDSA P384
+.
+
+MessageId	=8240
+Language    =English
+SSL ECDSA P256
+.
+
+MessageId	=8241
+Language    =English
+SSL ECDSA P384
+.
+
+MessageId	=8242
+Language    =English
+SHA 256
+.
+
+MessageId	=8243
+Language    =English
+SHA 384
+.
+
+MessageId	=8244
+Language    =English
+IKEv2
+.
+
+MessageId	=8245
+Language    =English
+EAP payload sent
+.
+
+MessageId	=8246
+Language    =English
+Authentication payload sent
+.
+
+MessageId	=8247
+Language    =English
+EAP
+.
+
+MessageId	=8248
+Language    =English
+DH group 24
+.
+
+MessageId	=8272
+Language    =English
+System
+.
+
+MessageId	=8273
+Language    =English
+Logon/Logoff
+.
+
+MessageId	=8274
+Language    =English
+Object Access
+.
+
+MessageId	=8275
+Language    =English
+Privilege Use
+.
+
+MessageId	=8276
+Language    =English
+Detailed Tracking
+.
+
+MessageId	=8277
+Language    =English
+Policy Change
+.
+
+MessageId	=8278
+Language    =English
+Account Management
+.
+
+MessageId	=8279
+Language    =English
+DS Access
+.
+
+MessageId	=8280
+Language    =English
+Account Logon
+.
+
+MessageId	=8448
+Language    =English
+Success removed
+.
+
+MessageId	=8449
+Language    =English
+Success Added
+.
+
+MessageId	=8450
+Language    =English
+Failure removed
+.
+
+MessageId	=8451
+Language    =English
+Failure added
+.
+
+MessageId	=8452
+Language    =English
+Success include removed
+.
+
+MessageId	=8453
+Language    =English
+Success include added
+.
+
+MessageId	=8454
+Language    =English
+Success exclude removed
+.
+
+MessageId	=8455
+Language    =English
+Success exclude added
+.
+
+MessageId	=8456
+Language    =English
+Failure include removed
+.
+
+MessageId	=8457
+Language    =English
+Failure include added
+.
+
+MessageId	=8458
+Language    =English
+Failure exclude removed
+.
+
+MessageId	=8459
+Language    =English
+Failure exclude added
+.
+
+MessageId	=12288
+Language    =English
+Security State Change
+.
+
+MessageId	=12289
+Language    =English
+Security System Extension
+.
+
+MessageId	=12290
+Language    =English
+System Integrity
+.
+
+MessageId	=12291
+Language    =English
+IPsec Driver
+.
+
+MessageId	=12292
+Language    =English
+Other System Events
+.
+
+MessageId	=12544
+Language    =English
+Logon
+.
+
+MessageId	=12545
+Language    =English
+Logoff
+.
+
+MessageId	=12546
+Language    =English
+Account Lockout
+.
+
+MessageId	=12547
+Language    =English
+IPsec Main Mode
+.
+
+MessageId	=12548
+Language    =English
+Special Logon
+.
+
+MessageId	=12549
+Language    =English
+IPsec Quick Mode
+.
+
+MessageId	=12550
+Language    =English
+IPsec Extended Mode
+.
+
+MessageId	=12551
+Language    =English
+Other Logon/Logoff Events
+.
+
+MessageId	=12552
+Language    =English
+Network Policy Server
+.
+
+MessageId	=12553
+Language    =English
+User / Device Claims
+.
+
+MessageId	=12800
+Language    =English
+File System
+.
+
+MessageId	=12801
+Language    =English
+Registry
+.
+
+MessageId	=12802
+Language    =English
+Kernel Object
+.
+
+MessageId	=12803
+Language    =English
+SAM
+.
+
+MessageId	=12804
+Language    =English
+Other Object Access Events
+.
+
+MessageId	=12805
+Language    =English
+Certification Services
+.
+
+MessageId	=12806
+Language    =English
+Application Generated
+.
+
+MessageId	=12807
+Language    =English
+Handle Manipulation
+.
+
+MessageId	=12808
+Language    =English
+File Share
+.
+
+MessageId	=12809
+Language    =English
+Filtering Platform Packet Drop
+.
+
+MessageId	=12810
+Language    =English
+Filtering Platform Connection
+.
+
+MessageId	=12811
+Language    =English
+Detailed File Share
+.
+
+MessageId	=12812
+Language    =English
+Removable Storage
+.
+
+MessageId	=12813
+Language    =English
+Central Policy Staging
+.
+
+MessageId	=13056
+Language    =English
+Sensitive Privilege Use
+.
+
+MessageId	=13057
+Language    =English
+Non Sensitive Privilege Use
+.
+
+MessageId	=13058
+Language    =English
+Other Privilege Use Events
+.
+
+MessageId	=13312
+Language    =English
+Process Creation
+.
+
+MessageId	=13313
+Language    =English
+Process Termination
+.
+
+MessageId	=13314
+Language    =English
+DPAPI Activity
+.
+
+MessageId	=13315
+Language    =English
+RPC Events
+.
+
+MessageId	=13568
+Language    =English
+Audit Policy Change
+.
+
+MessageId	=13569
+Language    =English
+Authentication Policy Change
+.
+
+MessageId	=13570
+Language    =English
+Authorization Policy Change
+.
+
+MessageId	=13571
+Language    =English
+MPSSVC Rule-Level Policy Change
+.
+
+MessageId	=13572
+Language    =English
+Filtering Platform Policy Change
+.
+
+MessageId	=13573
+Language    =English
+Other Policy Change Events
+.
+
+MessageId	=13824
+Language    =English
+User Account Management
+.
+
+MessageId	=13825
+Language    =English
+Computer Account Management
+.
+
+MessageId	=13826
+Language    =English
+Security Group Management
+.
+
+MessageId	=13827
+Language    =English
+Distribution Group Management
+.
+
+MessageId	=13828
+Language    =English
+Application Group Management
+.
+
+MessageId	=13829
+Language    =English
+Other Account Management Events
+.
+
+MessageId	=14080
+Language    =English
+Directory Service Access
+.
+
+MessageId	=14081
+Language    =English
+Directory Service Changes
+.
+
+MessageId	=14082
+Language    =English
+Directory Service Replication
+.
+
+MessageId	=14083
+Language    =English
+Detailed Directory Service Replication
+.
+
+MessageId	=14336
+Language    =English
+Credential Validation
+.
+
+MessageId	=14337
+Language    =English
+Kerberos Service Ticket Operations
+.
+
+MessageId	=14338
+Language    =English
+Other Account Logon Events
+.
+
+MessageId	=14339
+Language    =English
+Kerberos Authentication Service
+.
+
+MessageId	=14592
+Language    =English
+Inbound
+.
+
+MessageId	=14593
+Language    =English
+Outbound
+.
+
+MessageId	=14594
+Language    =English
+Forward
+.
+
+MessageId	=14595
+Language    =English
+Bidirectional
+.
+
+MessageId	=14596
+Language    =English
+IP Packet
+.
+
+MessageId	=14597
+Language    =English
+Transport
+.
+
+MessageId	=14598
+Language    =English
+Forward
+.
+
+MessageId	=14599
+Language    =English
+Stream
+.
+
+MessageId	=14600
+Language    =English
+Datagram Data
+.
+
+MessageId	=14601
+Language    =English
+ICMP Error
+.
+
+MessageId	=14602
+Language    =English
+MAC 802.3
+.
+
+MessageId	=14603
+Language    =English
+MAC Native
+.
+
+MessageId	=14604
+Language    =English
+vSwitch
+.
+
+MessageId	=14608
+Language    =English
+Resource Assignment
+.
+
+MessageId	=14609
+Language    =English
+Listen
+.
+
+MessageId	=14610
+Language    =English
+Receive/Accept
+.
+
+MessageId	=14611
+Language    =English
+Connect
+.
+
+MessageId	=14612
+Language    =English
+Flow Established
+.
+
+MessageId	=14613
+Language    =English
+Route
+.
+
+MessageId	=14614
+Language    =English
+Resource Release
+.
+
+MessageId	=14615
+Language    =English
+Endpoint Closure
+.
+
+MessageId	=14616
+Language    =English
+Connect Redirect
+.
+
+MessageId	=14617
+Language    =English
+Bind Redirect
+.
+
+MessageId	=14624
+Language    =English
+Stream Packet
+.
+
+MessageId	=14640
+Language    =English
+ICMP Echo-Request
+.
+
+MessageId	=14641
+Language    =English
+vSwitch Ingress
+.
+
+MessageId	=14642
+Language    =English
+vSwitch Egress
+.
+
+MessageId	=14672
+Language    =English
+<Binary>
+.
+
+MessageId	=14673
+Language    =English
+[NULL]
+.
+
+MessageId	=14674
+Language    =English
+Value Added
+.
+
+MessageId	=14675
+Language    =English
+Value Deleted
+.
+
+MessageId	=14676
+Language    =English
+Active Directory Domain Services
+.
+
+MessageId	=14677
+Language    =English
+Active Directory Lightweight Directory Services
+.
+
+MessageId	=14678
+Language    =English
+Yes
+.
+
+MessageId	=14679
+Language    =English
+No
+.
+
+MessageId	=16384
+Language    =English
+Add
+.
+
+MessageId	=16385
+Language    =English
+Delete
+.
+
+MessageId	=16386
+Language    =English
+Boot-time
+.
+
+MessageId	=16387
+Language    =English
+Persistent
+.
+
+MessageId	=16388
+Language    =English
+Not persistent
+.
+
+MessageId	=16389
+Language    =English
+Block
+.
+
+MessageId	=16390
+Language    =English
+Permit
+.
+
+MessageId	=16391
+Language    =English
+Callout
+.
+
+MessageId	=16392
+Language    =English
+MD5
+.
+
+MessageId	=16393
+Language    =English
+SHA-1
+.
+
+MessageId	=16394
+Language    =English
+SHA-256
+.
+
+MessageId	=16395
+Language    =English
+AES-GCM 128
+.
+
+MessageId	=16396
+Language    =English
+AES-GCM 192
+.
+
+MessageId	=16397
+Language    =English
+AES-GCM 256
+.
+
+MessageId	=16398
+Language    =English
+DES
+.
+
+MessageId	=16399
+Language    =English
+3DES
+.
+
+MessageId	=16400
+Language    =English
+AES-128
+.
+
+MessageId	=16401
+Language    =English
+AES-192
+.
+
+MessageId	=16402
+Language    =English
+AES-256
+.
+
+MessageId	=16403
+Language    =English
+Transport
+.
+
+MessageId	=16404
+Language    =English
+Tunnel
+.
+
+MessageId	=16405
+Language    =English
+Responder
+.
+
+MessageId	=16406
+Language    =English
+Initiator
+.
+
+MessageId	=16407
+Language    =English
+AES-GMAC 128
+.
+
+MessageId	=16408
+Language    =English
+AES-GMAC 192
+.
+
+MessageId	=16409
+Language    =English
+AES-GMAC 256
+.
+
+MessageId	=16416
+Language    =English
+AuthNoEncap Transport
+.
+
+MessageId	=16896
+Language    =English
+Enable WMI Account
+.
+
+MessageId	=16897
+Language    =English
+Execute Method
+.
+
+MessageId	=16898
+Language    =English
+Full Write
+.
+
+MessageId	=16899
+Language    =English
+Partial Write
+.
+
+MessageId	=16900
+Language    =English
+Provider Write
+.
+
+MessageId	=16901
+Language    =English
+Remote Access
+.
+
+MessageId	=16902
+Language    =English
+Subscribe
+.
+
+MessageId	=16903
+Language    =English
+Publish
+.
+

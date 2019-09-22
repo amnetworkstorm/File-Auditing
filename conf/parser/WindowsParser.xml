@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsParser>
+	
+	<EventId id="4656">
+		<field_pos>2,3,6,7,8,10</field_pos>
+		<field_name>UserName,Domain,ObjectType,ObjectName,HandleId,Accesses</field_name>
+	</EventId>
+
+	<EventId id="4658">
+		<field_pos>2,3,6</field_pos>
+		<field_name>UserName,Domain,HandleId</field_name>
+	</EventId>
+
+	<EventId id="4660">
+		<field_pos>2,3,6</field_pos>
+		<field_name>UserName,Domain,HandleId</field_name>
+	</EventId>
+
+	<EventId id="4663">
+		<field_pos>2,3,5,6,7,8,9,10</field_pos>
+		<field_name>UserName,Domain,ObjectServer,ObjectType,ObjectName,HandleId,Accesses,AccessesMask</field_name>
+	</EventId>
+	
+	</WindowsParser>
