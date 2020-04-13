@@ -2,7 +2,9 @@
 
 1.Download Apache Tomcat
 
-	http://mirrors.estointernet.in/apache/tomcat/tomcat-7/v7.0.96/bin/apache-tomcat-7.0.96-windows-x64.zip
+	https://mirrors.estointernet.in/apache/tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103-windows-x64.zip (64 bit)
+	
+	https://mirrors.estointernet.in/apache/tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103-windows-x86.zip (32 bit)
 
 	Extract the zip.Rename the folder as Apache
 
