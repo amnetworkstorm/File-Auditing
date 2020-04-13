@@ -9,13 +9,13 @@
 
 2.Download PostgresSQL
 
-	https://www.enterprisedb.com/thank-you-downloading-postgresql?anid=1256752
+     https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
-	Install postgressql.**Remember the port number,username,password**
+	Install postgressql and Remember the port number,username,password
 
 3.Download Java 8
 
-	https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html
+	https://www.azul.com/downloads/zulu-community/?architecture=x86-64-bit&package=jdk
 
 	Install Java 8
 
